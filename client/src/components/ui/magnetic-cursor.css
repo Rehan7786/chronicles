@@ -1,0 +1,4 @@
+@media (pointer: fine) {
+  .magnetic-cursor-root--enabled, .magnetic-cursor-root--enabled * { cursor: none !important; }
+}
+.magnetic-cursor-dot { position: fixed; z-index: 9999; top: 0; left: 0; display: block; border-radius: 999px; background: #fff; pointer-events: none; will-change: transform; }
